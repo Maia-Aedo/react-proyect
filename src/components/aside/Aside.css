@@ -1,0 +1,9 @@
+.container-aside{
+    /* width: 20%; */
+    flex: 0 0 17%;
+    background-color: rgb(166, 95, 224);
+    height: 300px;
+}
+
+
+
