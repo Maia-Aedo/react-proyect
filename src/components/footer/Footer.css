@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.container-footer{
+    background-color: rgba(190, 75, 219, 0.384);
+    width: 100%;
+    height: 120px;
+    display: grid;
+    justify-content: space-around;
+}
+
+.address{
+    font-family: 'Satisfy';
+    margin-left: 50px;
+    font-size: 25px;
+    margin-inline-end: 60px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    text-align: center;
+}
+
+.pie li{
+    display: inline-block;
+}
+
+.logo{
+    margin: 5px;
+    margin-inline-end: 30px;
+    text-align: center;
+}
+
+.contact{
+    font-family: 'Satisfy';
+    font-size: 25px;
+    text-align: center;
+    margin-inline-start: 40px;
+}
+
+

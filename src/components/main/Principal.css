@@ -1,6 +1,5 @@
 .container-main{
     /* width: 80%; */
     flex: 0 0 83%;
-    background-color: rgb(93, 106, 167);
-    height: 300px;
+    height: 500px;
 }
