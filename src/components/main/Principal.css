@@ -1,5 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 .container-main{
-    /* width: 80%; */
+    /* abreviatura de flex-grow (cuanto puede crecer el elto en relacion con los demas eltos
+    flex-shrink (cuanto espacio se puede reducir para evitar desbordamiento del container
+    flex-basis (espacio que ocupará antes de que se aplique cualquier regla de reduccion o ampliacion */
     flex: 0 0 83%;
-    height: 500px;
+    display: grid;
+}
+
+.separador{
+    background-color: rgb(224, 222, 220);
+}
+
+.title{
+    text-align: center;
+    font-family: 'Public Sans';
+}
+
+.text-pq p{
+    display: inline-table
+}
+
+.left-text{
+    font-size: 20px;
+    width: 40%;
+    margin-left: 50px;
+    font-family: 'Public Sans';
+}
+
+.right-text{
+    font-size: 20px;
+    width: 40%;
+    margin-left: 80px;
+    font-family: 'Public Sans';
 }

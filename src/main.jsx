@@ -3,7 +3,7 @@ import './index.css'
 // IMPORTACION DE COMPONENTES
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// entre llaves
+// entre llaves por ser funcion const
 import { Navbar } from './components/navbar/Navbar'
 import { Principal } from './components/main/Principal'
 import { Aside } from './components/aside/Aside'

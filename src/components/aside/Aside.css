@@ -1,9 +1,20 @@
 .container-aside{
     /* width: 20%; */
     flex: 0 0 17%;
-    background-color: rgba(166, 95, 224, 0.808);
-    height: 500px;
+    background-color: rgba(82, 104, 32, 0.808);
+    height: 835px;
 }
 
+.title-aside{
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 27px;
+    margin-bottom: 1.2%;
+}
 
+.studio{
+    margin-left: 23px;
+    margin-top: 8px;
+    padding: 1px;
+}
 

@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200..700&display=swap');
-
 .container-nav{
-    background-color: rgba(140, 158, 240, 0.74);
+    background-color: rgba(136, 122, 76, 0.74);
     display: grid;
-    justify-content: space-around;
     height: 90px;
+    
 }
 
 li {
@@ -12,8 +10,9 @@ li {
 }
 
 #item{
-    font-family: 'Fjalla One';
-    font-size: 20px;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: bold;
     margin-inline-end: 90px;
     cursor: pointer;
     text-align: center;
@@ -26,5 +25,5 @@ li {
 }
 
 #item:hover{
-    font-size: 22px;
+    font-size: 32px;
 }

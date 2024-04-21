@@ -1,5 +1,5 @@
 import './Footer.css'
-const logo = <img width="60" height="60" src="https://img.icons8.com/ios/100/meditation-guru.png" alt="meditation-guru"/>
+const logo = <img width="55" height="55" src="https://img.icons8.com/ios/100/meditation-guru.png" alt="meditation-guru"/>
 
 export const Footer = () => {
   return (
@@ -9,7 +9,7 @@ export const Footer = () => {
             <ul>
                 <li className='address'> Cipolletti </li>
                 <li className='logo'>{logo}</li>
-                <li className='contact'> aedomaia10@gmail.com </li>
+                <li className='contact'> yogaclass@gmail.com</li>
             </ul>
         </footer>
     </div>
