@@ -1,4 +1,21 @@
-.container{
+nav {
+    /* Añadir !important para forzar los estilos */
+    padding: 1rem !important;
+}
+
+nav ul {
+    list-style: none !important;
     display: flex !important;
-    
+    justify-content: space-around !important;
+    padding: 0 !important;
+}
+
+nav ul li {
+    margin: 0 1rem !important;
+    color: black;
+}
+
+nav ul li a {
+    text-decoration: none !important;
+    color: black;
 }

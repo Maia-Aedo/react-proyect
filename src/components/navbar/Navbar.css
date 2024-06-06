@@ -1,8 +1,8 @@
+
 .container-nav{
     background-color: rgba(136, 122, 76, 0.74);
     display: grid;
     height: 90px;
-    
 }
 
 li {
@@ -16,6 +16,7 @@ li {
     margin-inline-end: 90px;
     cursor: pointer;
     text-align: center;
+    color: black !important;
 }
 
 .menu li{

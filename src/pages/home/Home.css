@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.container{
+    display: flex !important;   
+}
 .container-main{
     /* abreviatura de flex-grow (cuanto puede crecer el elto en relacion con los demas eltos
     flex-shrink (cuanto espacio se puede reducir para evitar desbordamiento del container
@@ -32,4 +35,8 @@
     width: 40%;
     margin-left: 80px;
     font-family: 'Public Sans';
+}
+
+.banner{
+    align-self: auto !important;
 }
