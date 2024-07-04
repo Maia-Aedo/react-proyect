@@ -5,6 +5,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 // entre llaves por ser funcion const
 import App from './App';
+import { Footer } from './components/footer/Footer'
 import { BrowserRouter as Router } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </div>
       <Footer /> */}
       <App />
+      <Footer/>
       </Router>
     </React.StrictMode>,
 

@@ -1,4 +1,35 @@
+.container-slide {
+    min-height: 400px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
 
-.container-content{
+.container-content {
     margin-top: 20px;
+}
+
+.title-wr {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 35px;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.title-portfolio {
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+}
+
+.perfil {
+    border-radius: 100%;
 }
